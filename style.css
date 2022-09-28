@@ -25,6 +25,7 @@ body {
     height:40px;
 
 }
+
 .header {
     color:#f9faf8;
     font-size: 24px;
@@ -39,6 +40,30 @@ body {
     color:#e5e7eb;
     
     
+}
+
+.body-top {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #1f2937;
+    padding: 60px 80px 0px 80px;
+    height:300px;
+    }
+
+#placeholder {
+    width:350px;
+    height:250px;
+}
+
+.body-mid {
+    display:flex;
+    justify-content: center;
+    height:300px;
+}
+
+h2 {
+    padding:20px;
 }
 
 /*.header-link-1, .header-link-2, .header-link-3{
