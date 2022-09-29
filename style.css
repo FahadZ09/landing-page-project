@@ -44,15 +44,48 @@ body {
 
 .body-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items:center;
     background-color: #1f2937;
-    padding: 60px 80px 0px 80px;
+    padding: 60px 80px 40px 80px;
     height:300px;
     }
+    
+.website-desc {
+    width: 50%;
+}
+
+.hero-head{
+    color: #f9faf8;
+    font-weight:bolder;
+    font-size: 48px;
+    display:flex;
+    padding:0;
+    margin:0;
+    
+}
+
+.hero {
+    color:#e5e7eb;
+    font-size: 18px;
+    margin:0;
+    padding:0px 0px 8px 0px;
+
+}
+
+.sign-up-top {
+    display:flex;
+    padding: 4px 12px 4px 12px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
 
 #placeholder {
-    width:350px;
+    width:400px;
     height:250px;
 }
 
