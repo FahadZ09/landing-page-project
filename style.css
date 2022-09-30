@@ -1,3 +1,4 @@
+/* clean up code. A lot of repetitive commands */
 body {
     display:flex;
     flex-direction:column;  
@@ -165,6 +166,55 @@ body {
     font-size: 18px;
     font-weight: 700;
     margin:0px;
-    padding:0px;
-    
+    padding:0px;    
+}
+.signup-sect {
+    display:flex;
+    justify-content:center;
+    align-items:Center;
+    height:270px;
+    padding:30px 100px 30px 100px;
+}
+.signup-container {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:#3882f6;
+    padding:30px 60px;
+    border-radius: 12px;
+    width:800px;
+
+}
+.signup-left {
+    padding-left:60px;
+}
+.signup-head {
+    padding-bottom:0; 
+    margin-bottom: 0;
+    color:#f9faf8;
+}
+.signup-text {
+    padding-top:0;
+    margin-top: 0;
+    color:#e5e7eb;
+}
+.signup-bot {
+    margin-right:60px;
+    padding: 5px 20px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    border:2px solid #f9faf8;
+    color:#f9faf8;
+    font-weight:800 ;
+}
+
+.footer-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80px;
+    background-color:#1f2937;
+}
+.footer {
+    color:#e5e7eb;
 }
